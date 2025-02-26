@@ -8,7 +8,7 @@ System.out.println("Animal");
 }
 class Cat extends Animal { void jump(int a) {
 
-System.out.println("Cat");
+System.out.println(ConsoleColors.YELLOW+"Cat"+ConsoleColors.RESET+"in this class");
 
 }
 }
