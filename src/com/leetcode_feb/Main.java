@@ -3,7 +3,7 @@ class Animal {
 
 void jump() {
 
-System.out.println("Animal");
+System.out.println(ConsoleColors.YELLOW+"Animal"+ConsoleColors.RESET);
 }
 }
 class Cat extends Animal { void jump(int a) {
